@@ -18,9 +18,7 @@ public class Main {
 		Value = Number;
 		double digits = 2.5;
 		short digit = 1;
-		Number++;
-		Value--;
-		Number += Value;
+		
 		
 		// Strings
 		char letter = 'a';
@@ -66,6 +64,31 @@ public class Main {
 		int mod = second % first;
 		int multi = second * first;
 		int sub = second - first;
+		
+		second++;
+		first--;
+		second += Value;
+		
+		// Strings
+		String hello = "hello";
+		String Goodbye = "Goodbye";
+		String helloGoodbye = hello + Goodbye;
+		helloGoodbye += " and happy birthday";
+		
+		// Conditions
+		// ==========
+		
+		int smallNum = 0;
+		int bigNum = 30;
+		
+		if (smallNum < bigNum)
+		{
+			System.out.println(smallNum + " is smaller");
+		}
+		else
+		{
+			System.out.println((smallNum + " is not smaller"));
+		}
 		
 		
 		
