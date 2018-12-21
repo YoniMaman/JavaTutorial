@@ -18,11 +18,19 @@ public class Main {
 		Value = Number;
 		double digits = 2.5;
 		short digit = 1;
+		Number++;
+		Value--;
+		Number += Value;
 		
 		// Strings
 		char letter = 'a';
 		String name = "yoni";
 		String newName = name;
+		
+		// Boolean
+		boolean isTrue = true;
+		boolean isFalse = false;
+		isTrue = isFalse;
 		
 		// Arrays
 		String[] names = {"yoni", "Amit", "Avi"};
@@ -43,6 +51,22 @@ public class Main {
 		
 		
 		// Operators
+		// =========
+		
+		// Numbers
+		int first = 2;
+		int second = 3;
+		int sum = first + second;
+		
+		int sumAgain = 0;
+		double aDouble = 3.4;
+		// sumAgain = aDouble + first; // Can't do that
+		
+		int div = second / first;
+		int mod = second % first;
+		int multi = second * first;
+		int sub = second - first;
+		
 		
 		
 	}
